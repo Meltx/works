@@ -24,7 +24,7 @@ body {
     max-width: 15px;
 }
 .header {
-    height: 100vh;
+    height: 90vh;
 
     z-index: 5;
     left: 0;
@@ -77,29 +77,13 @@ body {
     padding-left: 12px;
     list-style: none;
 }
-/*
 
-.ss{
-    display: flex;
-    justify-content: center;
-
-}
-
-.slider{
-    width: 100%;
-    height: 400px;
-
-    
-}
-.carousel {
-    height: 400px !important;
-    overflow: hidden;
-  }
-  */
-  .slider {
+/* стили основного контейнера слайдера */
+.slider {
     position: relative;
     overflow: hidden;
-    max-width: 600px;
+    width: 100%;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -119,7 +103,8 @@ body {
   /* стили для слайдов */
   .slider__item {
     flex: 0 0 100%;
-    max-width: 100%;
+    width: 100%;
+    height: 500px;
   }
   
   /* стили для кнопок "вперед" и "назад" */
@@ -129,7 +114,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    width: 60px;
     color: #fff;
     text-align: center;
     opacity: 0.5;
@@ -203,3 +188,4 @@ body {
   .slider__indicators li.active {
     background-color: #fff;
   }
+  li{    position:relative;}li div{    position:absolute;    top:0; /* отступ сверху */    left:0; /* отступ слева */}
