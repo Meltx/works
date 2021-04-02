@@ -523,9 +523,31 @@ input[type=submit]:hover {
   background-color: rgb(1, 180, 229);
   color: #fff;
 }
+@media(max-width: 772px) {
+  .picture-text-blockquote {
+    padding: 40px 20px 3px 20px ;
+    font-size: 14px;
+}
+  .picture-text-author {
+    font-size: 14px;
+}
 
-@media(max-width: 528) {
+}@media(max-width: 450px) {
+  .slider__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+  .picture-text-author {
+    font-size: 14px;
+}
+}
+
+@media(max-width: 400px) {
     .picture-text-blockquote {
-      padding: 20px 20px 30px 20px ;
+      padding: 5px 20px 3px 20px ;
+      font-size: 14px;
+  }
+    .picture-text-author {
+      font-size: 14px;
   }
 }
