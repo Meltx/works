@@ -1,97 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tesla</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">    
-</head>
-<body>
-
-
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <div class="header--top"> 
-					<ul>
-						<li>
-							<img src="img/phone.svg" alt="">
-							<a href="tel:+380930660678">09306606781</a></li>
-						<li><img src="img/map.svg" alt="">
-							FEDEX & TNT SERVICE ХАРКІВ, УКРАЇНА, ХАРКІВ, МОВЧАНІВСЬКИЙ ПРОВУЛОК, 29, 61001
-						</li>
-						<li>
-							<img src="img/mail.svg" alt="">
-							<a href="mailto:O577801294@GMAIL.COM">O577801294@GMAIL.COM</a></li>
-						<li>
-							<img src="img/viber.svg" alt="">
-							+380930660678
-						</li>
-					</ul>
-            </div>
-			<div id="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d539.3749714436992!2d36.24632905759294!3d49.97921780964938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a1d500151531%3A0x44cc6b9e3c41f487!2z0JDQstGC0L7QstC-0LrQt9Cw0Lsg0KXQsNGA0YzQutC-0LI!5e0!3m2!1sru!2sua!4v1616886556645!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-			</div>
+      <div class="container">
+        <ul class="header-top">
+          <li>
+            <a class="header-text" href="tel:+380930660678">
+              <img class="header-text-image"src="img/phone.svg" alt="" />
+              09306606781
+            </a>
+          </li>
+          <li class="header-text">
+            <img class="header-text-image" src="img/map.svg" alt="" />
+            FEDEX & TNT SERVICE ХАРКІВ, УКРАЇНА, ХАРКІВ, МОВЧАНІВСЬКИЙ ПРОВУЛОК,
+            29, 61001
+          </li>
+          <li>
+            <a class="header-text"  href="mailto:O577801294@GMAIL.COM">
+                <img class="header-text-image" src="img/mail.svg" alt="" />
+                O577801294@GMAIL.COM
+            </a>
+          </li>
+          <li>
+            
+            <a class="header-text" href=“viber://chat?number=+380930660678” title="Viber">
+                <img class="header-text-image" src="img/viber.svg" alt="" />
+                +380930660678
+            </a>
+          </li>
+        </ul>
+        <div id="map">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.817179910821!2d36.2436987157143!3d49.9772869794129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a08828582df5%3A0x8add5849d2efbb84!2z0JzQvtC70YfQsNC90L7QstGB0LrQuNC5INC_0LXRgC4sIDI5LCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjEwMDA!5e0!3m2!1sru!2sua!4v1617347185625!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div class="header--bottom">
-            <div class="container">
-                <div class="img--cc"><img src="img/cc.svg" alt=""></div>
-                <div class="main--text">
-                    <ul>
-                        <li>FEDEX & TNT SERVICE</li>
-                        <li>+ МИТНИЙ БРОКЕР</li>
-                        <li>"АГЕНЦІЯ МЕВ" </li>
-                        <li> ХАРКІВ  </li>
-                        <li>ТЕЛ. 057-7801294, </li>
-                        <li>093-0660678.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="slider">
-        <div class="slider__wrapper">
-          <div class="slider__items">
-            <div class="slider__item">
-              <div>
-                  <img class="slider__item_photo" src="img/slder.jpg" width="100%" alt=""></div>
-            </div>
-            <div class="slider__item">
-              <div>
-                  <img class="slider__item_photo" src="img/slider.jpg" width="100%" alt="">
-                
-            </div>
+        <div class="header-bottom">
+          <div class="img--cc"><img src="img/cc.svg" alt="" /></div>
+          <div class="main--text">
+            <ul>
+              <li>FEDEX & TNT SERVICE</li>
+              <li>+ МИТНИЙ БРОКЕР</li>
+              <li>"АГЕНЦІЯ МЕВ"</li>
+              <li>ХАРКІВ</li>
+              <li>ТЕЛ. 057-7801294,</li>
+              <li>093-0660678.</li>
+            </ul>
           </div>
         </div>
-        <a class="slider__control slider__control_prev" href="#" role="button"></a>
-        <a class="slider__control slider__control_next slider__control_show" href="#" role="button"></a>
     </div>
+    </header>
+    <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__items">
+          <div class="slider__item">
+            <div class="slider__text">
+              <h2 class="slider__title">
+                Наша фирма - лидер на рынке в своей области!
+              </h2>
+              <p class="slider__text-dis">
+                Бизнес — вещь непростая. Люди могут обещать тебе золотые горы,
+                но пока они не поставят подпись на договоре, это ничего не
+                значит.
+              </p>
+            </div>
+            <img class="slider__item_photo" src="img/slder.jpg" alt="" />
+          </div>
+          <div class="slider__item">
+            <div class="slider__text">
+              <h2 class="slider__title">
+                Наша фирма - лидер на рынке в своей области!
+              </h2>
+              <p class="slider__text-dis">
+                Бизнес — вещь непростая. Люди могут обещать тебе золотые горы,
+                но пока они не поставят подпись на договоре, это ничего не
+                значит.
+              </p>
+            </div>
+            <img
+              class="slider__item_photo"
+              src="img/slider.jpg"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <a
+        class="slider__control slider__control_prev"
+        href="#"
+        role="button"
+      ></a>
+      <a
+        class="slider__control slider__control_next slider__control_show"
+        href="#"
+        role="button"
+      ></a>
+    </div>
+    <div class="section__wrapper">
+      <div class="container">
+      <h2 class="section__title">Особенности</h2>
+      <div class="section__row">
+          <div class="section__item benefit">
+              <img class="benefit__icon" src="img/leaf.svg">
+              <span class="benefit__count">Особенность</span>
+              <span class="benefit__title">Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях.</span>
+          </div>
+          <div class="section__item benefit">
+              <img class="benefit__icon" src="img/umbrella.svg">
+              <span class="benefit__count">Особенность</span>
+              <span class="benefit__title">Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях.</span>
+          </div>
+          <div class="section__item benefit">
+              <img class="benefit__icon" src="img/gavel.svg">
+              <span class="benefit__count">Особенность</span>
+              <span class="benefit__title">Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях.</span>
+          </div>
+          <div class="section__item benefit">
+              <img class="benefit__icon" src="img/bomb.svg">
+              <span class="benefit__count">Особенность</span>
+              <span class="benefit__title">Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях.</span>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="big__picture">
+    <img class="background__picture" src="img/picturebig.jpg" alt="">
+    <div class="big__picture-text">
+      <blockquote class="picture-text-blockquote">
+        "Бизнес — вещь непростая. Люди могут обещать тебе золотые горы, но пока они не поставят подпись на договоре, это ничего не значит."
+    </blockquote>
+      <p class="picture-text-author">Джессика Пирсон</p>
+  </div>
+  </div>
+    <div class="container">
+      <h2 class="showcase__title">Услуги</h2>
+      <div class="showcase">
+        <div class="showcase__market"> 
+          <img class="img__market" src="img/market.jpg" alt="">
+          <h4 class="market__title">Услуга</h4>
+          <div class="cost">
+            <span class="cost__number">800.00</span>
+            <span class="currency">грн</span>
+          </div>
+          <p class="cost__info">
+            Разместите тут краткое описание вашего спецпредложения, товара или услуги.
+          </p>
+          <div class="market_btn-main">
+            <a class="market_btn" href="#" >ЗАКАЗАТЬ</a>
+          </div>
+        </div>
+        <div class="showcase__market"> 
+          <img class="img__market" src="img/market2.jpg" alt="">
+          <h4 class="market__title">Услуга</h4>
+          <div class="cost">
+            <span class="cost__number">800.00</span>
+            <span class="currency">грн</span>
+          </div>
+          <p class="cost__info">
+            Разместите тут краткое описание вашего спецпредложения, товара или услуги.
+          </p>
+          <div class="market_btn-main">
+            <a class="market_btn" href="#" >ЗАКАЗАТЬ</a>
+          </div>
+        </div>
+        <div class="showcase__market"> 
+          <img class="img__market" src="img/market3.jpg" alt="">
+          <h4 class="market__title">Услуга</h4>
+          <div class="cost">
+            <span class="cost__number">800.00</span>
+            <span class="currency"><b>грн</b></span>
+          </div>
+          <p class="cost__info">
+            Разместите тут краткое описание вашего спецпредложения, товара или услуги.
+          </p>
+          <div class="market_btn-main">
+            <a class="market_btn" href="#" >ЗАКАЗАТЬ</a>
+          </div>
+        </div>
+    </div>
+    <div class="market_btn-big-main">
+      <a class="market_btn-big" href="#" >ВСЕ ВИДЫ УСЛУГ</a>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div class="main--text">
+          <ul>
+            <li>FEDEX & TNT SERVICE</li>
+            <li>+ МИТНИЙ БРОКЕР</li>
+            <li>"АГЕНЦІЯ МЕВ"</li>
+            <li>ХАРКІВ</li>
+            <li>ТЕЛ. 057-7801294,</li>
+            <li>093-0660678.</li>
+          </ul>
+        </div>
+        <div class="header-bottom-menu">
 
-
-
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="bottom-contact-list">
+        <ul class="bottom-contact">
+          <li>
+            <a class="bottom-text" href="tel:+380930660678">
+              <img class="bottom-text-image"src="img/phone.svg" alt="" />
+              09306606781
+            </a>
+          </li>
+          <li class="bottom-text">
+            <img class="bottom-text-image" src="img/map.svg" alt="" />
+            FEDEX & TNT SERVICE ХАРКІВ, УКРАЇНА, ХАРКІВ, МОВЧАНІВСЬКИЙ ПРОВУЛОК,
+            29, 61001
+          </li>
+          <li>
+            <a class="bottom-text"  href="mailto:O577801294@GMAIL.COM">
+                <img class="bottom-text-image" src="img/mail.svg" alt="" />
+                O577801294@GMAIL.COM
+            </a>
+          </li>
+          <li>
+            
+            <a class="bottom-text" href=“viber://chat?number=+380930660678” title="Viber">
+                <img class="bottom-text-image" src="img/viber.svg" alt="" />
+                +380930660678
+            </a>
+          </li>
+        </ul>
+      </div>
+        <div class="cover">
+          <form id="contactform"> 
+              <p class="contact"><label for="name">Напишите нам</label></p> 
+              <input id="name" size="50" name="name" placeholder="Имя" required="" tabindex="1" type="text" required> 
+              <p class="contact"><label for="email"></label></p> 
+              <input id="email" name="email" placeholder="E-mail" required="" tabindex="2" type="email" required> 
+              <p class="contact"><label for="comment"></label></p> 
+              <textarea name="comment" id="comment" placeholder="Большое поле" tabindex="4" required></textarea> <br>
+              <input name="submit" id="submit" tabindex="5" value="Отправить" type="submit"> 	 
+          </form> 
+      </div>
+      </div>
+    </div>
+  </footer>
 
     <script src="js/main.js"></script>
     <script>
-    slideShow('.slider', {
-      isAutoplay: true
-    });
+      slideShow(".slider", {
+        isAutoplay: true,
+      });
     </script>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-
-
-</body>
+  </body>
 </html>
